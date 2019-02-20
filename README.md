@@ -11,7 +11,7 @@ Whilst the aim of this letter is to illustrate a new machine learning approach f
 
 ## A single plan-net model:
 
-![Alt Text](https://github.com/AdamCobb/plan-net-private/blob/master/plan-net_model.png)
+![Alt Text](https://github.com/exoml/plan-net/blob/master/plan-net_model.png)
 
 ## Reproducing Results
 We have created a number of Jupyter notebooks to reproduce our results:
