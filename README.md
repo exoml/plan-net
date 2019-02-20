@@ -1,4 +1,4 @@
-# plan-net-private
+# plan-net
 
 An Ensemble of Bayesian Neural Networks for Exoplanetary Atmospheric Retrieval
 
