@@ -33,7 +33,7 @@ Tested on:
 1. Clone plan-net and install requirements.
 ```
 cd <installation_path_of_your_choice>
-git clone https://github.com/AdamCobb/plan-net
+git clone https://github.com/exoml/plan-net
 ```
 
 2. For the data, clone hela and move data into data folder.
@@ -57,4 +57,6 @@ jupyter notebook
 > M\́{a}rquez-Neila, P., Fisher, C., Sznitman, R., & Heng, K.2018, Nature Astronomy, arXiv:1806.03944
 
 ## Contact Information
-Adam Cobb: acobb@robots.ox.ac.uk
+
+Adam Cobb: acobb@robots.ox.ac.uk (Machine Learning Questions)
+Michael D. Himes: mhimes@knights.ucf.edu (Exoplanetary Questions)
