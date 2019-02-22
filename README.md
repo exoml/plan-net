@@ -59,4 +59,6 @@ jupyter notebook
 ## Contact Information
 
 Adam Cobb: acobb@robots.ox.ac.uk (Machine Learning Questions)
+
+
 Michael D. Himes: mhimes@knights.ucf.edu (Exoplanetary Questions)
