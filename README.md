@@ -2,6 +2,19 @@
 
 An Ensemble of Bayesian Neural Networks for Exoplanetary Atmospheric Retrieval
 
+Authors:<br> 
+[Adam D. Cobb](http://orcid.org/0000-0003-2868-6983) Department of Engineering Science, University of Oxford<br>
+[Michael D. Himes](http://orcid.org/0000-0002-9338-8600) Planetary Science Group, Department of Physics, University of Central Florida<br>
+[Frank Soboczenski](http://orcid.org/0000-0001-8185-6094) SPHES, King’s College London<br>
+[Simone Zorzan](http://orcid.org/0000-0003-0550-3224) ERIN Department, Luxembourg Institute of Science and Technology<br>
+[Molly D. O'Beirne](http://orcid.org/0000-0001-9011-4420) Department of Geology and Environmental Science, University of Pittsburgh<br>
+[Atılım Güneş Baydin](http://orcid.org/0000-0001-9854-8100) Department of Computer Science, University of Oxford<br>
+[Yarin Gal](https://orcid.org/0000-0002-2733-2078) Department of Computer Science, University of Oxford<br>
+[Shawn D. Domagal-Goldman](http://orcid.org/0000-0003-0354-9325) NASA Goddard Space Flight Center, Greenbelt, MD<br>
+[Giada N. Arney](http://orcid.org/0000-0001-6285-267X) NASA Goddard Space Flight Center, Greenbelt, MD<br>
+[Daniel Angerhausen](http://orcid.org/0000-0001-6138-8633) CSH Fellow, Center for Space and Habitability, University of Bern, Switzerland<br>
+
+
 ## Abstract 
 Machine learning is now commonly used in many areas of astrophysics, from detecting exoplanets in Kepler transit signals to automatically removing systematic noise in telescopes. These techniques have the ability to both speed-up and automate tasks such as detection, prediction and the generation of complex patterns.
 Recent work by \citet{MarquezNeilaEtal2018natureMLRetrieval} recognized the potential of using machine learning algorithms for atmospheric retrieval by implementing a random forest to achieve consistent results with the standard, yet computationally expensive, nested-sampling retrieval method. 
@@ -33,7 +46,7 @@ Tested on:
 1. Clone plan-net and install requirements.
 ```
 cd <installation_path_of_your_choice>
-git clone https://github.com/exoml/plan-net
+git clone https://github.com/AdamCobb/plan-net
 ```
 
 2. For the data, clone hela and move data into data folder.
@@ -57,8 +70,4 @@ jupyter notebook
 > M\́{a}rquez-Neila, P., Fisher, C., Sznitman, R., & Heng, K.2018, Nature Astronomy, arXiv:1806.03944
 
 ## Contact Information
-
-Adam Cobb: acobb@robots.ox.ac.uk (Machine Learning Questions)
-
-
-Michael D. Himes: mhimes@knights.ucf.edu (Exoplanetary Questions)
+Adam Cobb: acobb@robots.ox.ac.uk
