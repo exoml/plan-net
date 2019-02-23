@@ -70,4 +70,5 @@ jupyter notebook
 > M\́{a}rquez-Neila, P., Fisher, C., Sznitman, R., & Heng, K.2018, Nature Astronomy, arXiv:1806.03944
 
 ## Contact Information
-Adam Cobb: acobb@robots.ox.ac.uk
+Adam D. Cobb: acobb at robots.ox.ac.uk (Machine Learning questions)
+Michael D. Himes: mhimes at knights.ucf.edu  (Exoplanetary questions)
