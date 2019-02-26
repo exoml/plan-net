@@ -16,11 +16,15 @@ Authors:<br>
 
 
 ## Abstract 
-Machine learning is now commonly used in many areas of astrophysics, from detecting exoplanets in Kepler transit signals to automatically removing systematic noise in telescopes. These techniques have the ability to both speed-up and automate tasks such as detection, prediction and the generation of complex patterns.
-Recent work by \citet{MarquezNeilaEtal2018natureMLRetrieval} recognized the potential of using machine learning algorithms for atmospheric retrieval by implementing a random forest to achieve consistent results with the standard, yet computationally expensive, nested-sampling retrieval method. 
-We expand on their approach by presenting a new machine learning model, \texttt{plan-net}, which is specifically designed for atmospheric retrieval.
-Our approach, which is based on Bayesian neural networks, achieves a 3 \% improvement over the random forest for the same data set of synthetic transmission spectra. Importantly, we show that designing our machine learning model to explicitly incorporate domain-specific knowledge both improves performance and provides additional insight by inferring the covariance of the retrieved atmospheric parameters.
-Whilst the aim of this letter is to illustrate a new machine learning approach for atmospheric retrieval, we highlight that our method is flexible and can be expanded to higher resolution spectra and a larger number of atmospheric parameters.
+Machine learning is now used in many areas of astrophysics, from detecting exoplanets in Kepler transit signals to removing telescope systematics. 
+Recent work demonstrated the potential of using machine learning algorithms for atmospheric retrieval by implementing a random forest to perform retrievals in seconds that are consistent with the traditional, computationally-expensive nested-sampling retrieval method.
+We expand upon their approach by presenting a new machine learning model, \texttt{plan-net}, based on an ensemble of Bayesian neural networks
+that yields more accurate inferences than the random forest for the same data set of synthetic transmission spectra.
+We demonstrate that an ensemble provides greater accuracy and more robust uncertainties than a single model.
+In addition to being the first to use Bayesian neural networks 
+for atmospheric retrieval, we also introduce a new loss function for Bayesian neural networks 
+that learns correlations between the model outputs.
+Importantly, we show that designing machine learning models to explicitly incorporate domain-specific knowledge both improves performance and provides additional insight by inferring the covariance of the retrieved atmospheric parameters. We apply \texttt{plan-net} to the Hubble Space Telescope Wide Field Camera 3 transmission spectrum for WASP-12b and retrieve an isothermal temperature and water abundance consistent with the literature. We highlight that our method is flexible and can be expanded to higher-resolution spectra and a larger number of atmospheric parameters.
 
 ## A single plan-net model:
 
@@ -67,7 +71,7 @@ jupyter notebook
 
 
 ## Data
-> M\́{a}rquez-Neila, P., Fisher, C., Sznitman, R., & Heng, K.2018, Nature Astronomy, arXiv:1806.03944
+> M\́{a}rquez-Neila, P., Fisher, C., Sznitman, R., & Heng, K. 2018, Nature Astronomy, arXiv:1806.03944
 
 ## Contact Information
 Adam D. Cobb: `acobb at robots.ox.ac.uk` (Machine Learning questions)<br>
